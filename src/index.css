@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100 font-dana;
+}
+
+.line {
+  line-height: 44px;
+}
+
+.completed {
+  opacity: 50%;
+  transition: all 250ms ease;
+}
+
+@theme {
+  --font-dana: "Dana";
+  --font-danaBold: "Dana Bold";
+  --font-danaMedium: "Dana Medium";
+}
+
+@font-face {
+  font-family: Dana;
+  src: url(../public/font/dana\ regular.ttf);
+}
+@font-face {
+  font-family: Dana Bold;
+  src: url(../public/font/dana\ bold.ttf);
+}
+@font-face {
+  font-family: Dana Medium;
+  src: url(../public/font/dana\ medium.ttf);
+}
